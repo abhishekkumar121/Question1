@@ -1,5 +1,5 @@
+#using Regex(Regular Expression)
 import re
-
 def is_valid_contact_number(number):
     pattern = r'^(\+\d{1,2}\s?)?(\d{1,4}[\s.-]?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$'
     
